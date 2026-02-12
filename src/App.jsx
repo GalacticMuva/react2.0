@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { ApiPets } from './components/apiPets.jsx'
+import ContactForm from './components/ContactForm'
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <p className="lead text-muted">Fetching live data from Supabase</p>
       </header>
 
-      <ApiPets />
+      <ApiPets /> 
+      <ContactForm />
+
 
       <footer className="text-center mt-5 py-4 border-top">
         <p className="text-muted">Pet Database Project &copy; 2026</p>
